@@ -1,0 +1,27 @@
+GET http://localhost:5000/books
+
+###
+GET http://localhost:5000/books/1
+
+###
+POST http://localhost:5000/books
+Content-Type: application/json
+
+{
+    "title": "Buku Tatang Supratman dari rest-client V2",
+    "author": "John Doe",
+    "price": 50000
+}
+
+###
+PUT http://localhost:5000/books/2
+Content-Type: application/json
+
+{
+    "title": "Buku Tatang Supratman V20",
+    "author": "Cucu John Doe Junior",
+    "price": 150000
+}
+
+###
+DELETE http://localhost:5000/books/2
