@@ -1,4 +1,4 @@
-# Binar: Challenge 04
+# Binar: Challenge 05
 
 - Mulai modifikasi file `server/index.js` apabila ingin membuat HTTP server.
 - Mulai modifikasi folder `public` apabila ingin memodifikasi HTML.
@@ -26,11 +26,11 @@ interface Car {
 }
 
 interface Binar {
-  listCars(filterer: (car: Car) => boolean): Array<Car>
+  listCars(filterer: (car: Car) => boolean): Array<Car>;
 }
 ```
 
-Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolean` sebagai nilainya. 
+Method `listCars` ini akan menerima fungsi yang mana harus mengembalikan `boolean` sebagai nilainya.
 Fungsi ini akan dijalankan untuk masing-masing item di dalam list of cars, yang mana jika nilainya `true`,
 maka akan ditampilkan di dalam list tersebut.
 
